@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COURSE PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Caveat:wght@400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Satisfy&family=Vast+Shadow&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Caveat:wght@400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Satisfy&family=Vast+Shadow&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Caveat:wght@400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Satisfy&family=Vast+Shadow&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="box-menu">
+        <div class="box-profile">
+          <h2><span>M</span>eiza.com</h2>
+        </div>
+      <ul>
+        <li>
+          <a class="menu" href="#home">HOME</a>
+        </li>
+        <li>
+          <a class="menu" href="#about">ABOUT</a>
+        </li>
+        <li>
+          <a class="menu" href="#course">COURSE</a>
+        </li>
+        <li>
+          <a class="menu" href="#testimoni">TESTIMONY</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <section id="home">
+        <!-- ------------------------------TITLE----------------------- -->
+        <div class="text-box">
+          <h1>Better Education From <br />Zero to Hero</h1>
+          <button class="button-seting">Explore</button>
+        </div>
+
+        <!-- -------------------------CAROUSEL & NAVBAR------------------------ -->
+        <div class="carousel">
+          <header>
+            <h1><span>M</span>Z.</h1>
+            <ul>
+              <li>
+                <a onclick="handleMenu()" class="menu active" href="#home"
+                  >HOME</a
+                >
+              </li>
+              <li>
+                <a onclick="handleMenu()" class="menu" href="#about">ABOUT</a>
+              </li>
+              <li>
+                <a onclick="handleMenu()" class="menu" href="#course">COURSE</a>
+              </li>
+              <li>
+                <a onclick="handleMenu()" class="menu" href="#testimoni"
+                  >TESTIMONY</a
+                >
+              </li>
+            </ul>
+            <p onclick="openMenu()" class="open-menu">
+              <i class="bx bx-list-ul"></i>
+            </p>
+          </header>
+          <div class="wraper-carousel">
+            <img src="images/carousel-1.jpg" alt="" />
+            <img src="images/carousel-2.jpg" alt="" />
+            <img src="images/carousel-3.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- -------------------------------SERVICE---------------------------- -->
+      <div class="service">
+        <div class="wraper-service">
+          <div class="card">
+            <h5><i class="bx bx-laptop"></i></h5>
+            <h3>Learn Online Course</h3>
+            <p>
+              Join at our comprehensive to online courses and learn new skills
+              at home.
+            </p>
+            <button class="button-seting">Read More</button>
+          </div>
+          <div class="card">
+            <h5><i class="bx bxs-user-check"></i></h5>
+            <h3>Highly Qualified Teachers</h3>
+            <p>
+              Learn from qualified instructors with our online courses. Gain
+              expert insights and skills.
+            </p>
+            <button class="button-seting">Read More</button>
+          </div>
+          <div class="card">
+            <h5><i class="bx bx-book"></i></h5>
+            <h3>Book Library & Stores</h3>
+            <p>
+              Learn from the best with our to online courses, featuring
+              high-quality textbooks.
+            </p>
+            <button class="button-seting">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- -----------------------------BANNER----------------------------- -->
+      <div class="banner banner-1">
+        <div class="wraper-banner">
+          <h1>About Us</h1>
+          <p><i class="bx bx-chevron-down"></i></p>
+        </div>
+      </div>
+
+      <!-- -----------------------------ABOUT------------------------------ -->
+      <section id="about">
+        <div class="wraper-about">
+          <div class="desc-box">
+            <h4></h4>
+            <h1>Tech Very <br />Important for Future</h1>
+            <p>
+              Welcome to our cutting-edge online/offline technology course! Dive
+              into the world of tech with comprehensive modules designed to
+              enhance your skills and knowledge. Our courses cover a wide range
+              of topics, from basic computer literacy to advanced programming
+              and cybersecurity.
+            </p>
+            <div class="box-button">
+              <button onclick="handleChangeImg('teachers')" class="active-link">
+                Qualified Teachers
+              </button>
+              <button onclick="handleChangeImg('online')">Online Course</button>
+              <button onclick="handleChangeImg('book')">Book Library</button>
+            </div>
+          </div>
+          <div class="img-box">
+            <img
+              class="active-img"
+              id="teachers"
+              src="images/about.jpg"
+              alt=""
+            />
+            <img id="online" src="images/course.jpg" alt="" />
+            <img id="book" src="images/book.jpg" alt="" />
+          </div>
+          </div>
+            <div class="others">
+              <h1>
+                Trusted by more than <span>1000+</span> companies <br />in
+                <span>Asia and Europe</span>
+              </h1>
+              <ul>
+                <li><img src="images/Google Logo.png" alt="" /></li>
+                <li><img src="images/Microsoft Logo.png" alt="" /></li>
+                <li><img src="images/WestRock Logo.png" alt="" /></li>
+                <li><img src="images/Unum Group Logo.png" alt="" /></li>
+                <li><img src="images/Verizon Logo.png" alt="" /></li>
+              </ul>
+            </div>
+      </section>
+
+      <!-- -----------------------------BANNER--------------------------- -->
+      <div class="banner banner-2">
+        <div class="wraper-banner">
+          <h1>Our Course</h1>
+          <p><i class="bx bx-chevron-down"></i></p>
+        </div>
+      </div>
+
+      <!-- ---------------------------COURSE----------------------------- -->
+      <section id="course">
+        <div class="explain">
+          <h4>Certificate Program</h4>
+          <h1>Find the best skills in here</h1>
+          <p>
+            Get breakthrough prices to get 100% online/offline certificates from
+            experienced and qualified teachers
+          </p>
+        </div>
+        <div class="container-carousel-mobile">
+
+        </div>
+        <div class="wraper-course">
+          <p><i id="prev" class="bx bx-chevron-left"></i></p>
+
+
+          <!-- -----------------------WRAP-CAROUSEL-------------------------- -->
+          <div class="container-carousel">
+            <!-- ------------------------CAROUSEL 1------------------------------ -->
+            <div class="carousel-course">
+              <!-- ------------------------- FIRST CARD--------------------------- -->
+              <div class="card-course">
+                <div class="box-1">
+                  <img src="images/UI-UX.jpg" alt="" />
+                </div>
+                <div class="box-2">
+                  <h3>UI/UX Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, elit adipisicing.
+                    Rem ea incidunt aliquam eligendi dolores doloremque nobis.
+                  </p>
+                  <div class="join">
+                    <h5>
+                      <i class="bx bxs-graduation"></i>
+                      <span>Get Certificate</span>
+                    </h5>
+                    <button>Join</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ------------------------SECOND CARD------------------------------ -->
+              <div class="card-course">
+                <div class="box-1">
+                  <img src="images/data-analyst.jpg" alt="" />
+                </div>
+                <div class="box-2">
+                  <h3>Data Analyst</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, elit adipisicing.
+                    Rem ea incidunt aliquam eligendi dolores doloremque nobis.
+                  </p>
+                  <div class="join">
+                    <h5>
+                      <i class="bx bxs-graduation"></i>
+                      <span>Get Certificate</span>
+                    </h5>
+                    <button>Join</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ------------------------LAST CARD------------------------------- -->
+              <div class="card-course">
+                <div class="box-1">
+                  <img src="images/content-creator (2).jpg" alt="" />
+                </div>
+                <div class="box-2">
+                  <h3>Content Creator</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, elit adipisicing.
+                    Rem ea incidunt aliquam eligendi dolores doloremque nobis.
+                  </p>
+                  <div class="join">
+                    <h5>
+                      <i class="bx bxs-graduation"></i>
+                      <span>Get Certificate</span>
+                    </h5>
+                    <button>Join</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ------------------------CAROUSEL 2------------------------------ -->
+            <div class="carousel-course">
+              <!-- -------------------------FIRST CARD--------------------------- -->
+              <div class="card-course">
+                <div class="box-1">
+                  <img src="images/crypto-currency.jpg" alt="" />
+                </div>
+                <div class="box-2">
+                  <h3>Trading Crypto</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, elit adipisicing.
+                    Rem ea incidunt aliquam eligendi dolores doloremque nobis.
+                  </p>
+                  <div class="join">
+                    <h5>
+                      <i class="bx bxs-graduation"></i>
+                      <span>Get Certificate</span>
+                    </h5>
+                    <button>Join</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ------------------------SECOND CARD------------------------------ -->
+              <div class="card-course">
+                <div class="box-1">
+                  <img src="images/blabla.jpg" alt="" />
+                </div>
+                <div class="box-2">
+                  <h3>Machine Learning</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, elit adipisicing.
+                    Rem ea incidunt aliquam eligendi dolores doloremque nobis.
+                  </p>
+                  <div class="join">
+                    <h5>
+                      <i class="bx bxs-graduation"></i>
+                      <span>Get Certificate</span>
+                    </h5>
+                    <button>Join</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ------------------------LAST CARD------------------------------- -->
+              <div class="card-course">
+                <div class="box-1">
+                  <img src="images/blockchain.jpg" alt="" />
+                </div>
+                <div class="box-2">
+                  <h3>BlockChain Developer</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, elit adipisicing.
+                    Rem ea incidunt aliquam eligendi dolores doloremque nobis.
+                  </p>
+                  <div class="join">
+                    <h5>
+                      <i class="bx bxs-graduation"></i>
+                      <span>Get Certificate</span>
+                    </h5>
+                    <button>Join</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ------------------------CAROUSEL 3------------------------------ -->
+            <div class="carousel-course">
+              <!-- -------------------------FIRST CARD--------------------------- -->
+              <div class="card-course">
+                <div class="box-1">
+                  <img src="images/copy-writing (2).jpg" alt="" />
+                </div>
+                <div class="box-2">
+                  <h3>Copy Writing</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, elit adipisicing.
+                    Rem ea incidunt aliquam eligendi dolores doloremque nobis.
+                  </p>
+                  <div class="join">
+                    <h5>
+                      <i class="bx bxs-graduation"></i>
+                      <span>Get Certificate</span>
+                    </h5>
+                    <button>Join</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ------------------------SECOND CARD------------------------------ -->
+              <div class="card-course">
+                <div class="box-1">
+                  <img src="images/security.jpg" alt="" />
+                </div>
+                <div class="box-2">
+                  <h3>Security System</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, elit adipisicing.
+                    Rem ea incidunt aliquam eligendi dolores doloremque nobis.
+                  </p>
+                  <div class="join">
+                    <h5>
+                      <i class="bx bxs-graduation"></i>
+                      <span>Get Certificate</span>
+                    </h5>
+                    <button>Join</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ------------------------LAST CARD------------------------------- -->
+              <div class="card-course">
+                <div class="box-1">
+                  <img src="images/fullstack.jpg" alt="" />
+                </div>
+                <div class="box-2">
+                  <h3>Web Developer</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, elit adipisicing.
+                    Rem ea incidunt aliquam eligendi dolores doloremque nobis.
+                  </p>
+                  <div class="join">
+                    <h5>
+                      <i class="bx bxs-graduation"></i>
+                      <span>Get Certificate</span>
+                    </h5>
+                    <button>Join</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p><i id="next" class="bx bx-chevron-right"></i></p>
+        </div>
+      </section>
+
+      <!-- ----------------------------SPONSOR--------------------------------- -->
+      <div class="sponsor">
+        <div class="wraper-sponsor">
+          <div class="img-sponsor">
+            <img src="images/sponsor.jpg" alt="" />
+          </div>
+          <div class="desc-sponsor">
+            <h1>sure you don't want to join us?</h1>
+            <p>
+              There are already lots of alumni from here who have found work
+              less than 3 months after graduating from here
+            </p>
+            <div class="img-box-sponsor">
+              <div class="img">
+                <div class="first">
+                  <img src="images/tesiti-1.jpg" alt="" />
+                </div>
+                <div class="second">
+                  <img src="images/testi-2.jpg" alt="" />
+                </div>
+                <div class="third"><img src="images/testi-3.jpg" alt="" /></div>
+                <div class="fourt"><img src="images/testi-4.jpg" alt="" /></div>
+              </div>
+              <span>42.000+ people have graduated </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- --------------------------------TESTIMONY----------------------- -->
+      <section id="testimoni">
+        <h1>Our graduates say</h1>
+        <div class="wraper-testi">
+          <!-- ----------------------------CARD 1--------------------------- -->
+          <div class="card-testi">
+            <nav>
+              <div class="data">
+                <div class="img-testy">
+                  <img src="images/testi-2.jpg" alt="" />
+                </div>
+                <div class="name-testy">
+                  <h5>Tania S.</h5>
+                  <p>UI/UX Designer</p>
+                </div>
+              </div>
+              <img src="images/Stryker Logo.png" alt="" width="60px" />
+            </nav>
+            <p class="big">
+              "Lorem ipsum dolor sit amet consectetur elit. Nam voluptatum
+              beatae recusandae atque voluptatem quasi perferendis eveniet saepe
+              doloribus quae eius veritatis repellat repreh porro accusantium,
+              voluptatibus ex deleniti baka genosida koro mono betuka."
+            </p>
+            <h2><i class="bx bxs-quote-alt-left"></i></h2>
+          </div>
+
+          <!-- -----------------------CARD 2------------------------------- -->
+          <div class="card-testi">
+            <nav>
+              <div class="data">
+                <div class="img-testy">
+                  <img src="images/testi-4.jpg" alt="" />
+                </div>
+                <div class="name-testy">
+                  <h5>Mark C.</h5>
+                  <p>Machine Learning</p>
+                </div>
+              </div>
+              <img src="images/Unum Group Logo.png" alt="" width="60px" />
+            </nav>
+            <p class="big">
+              "Lorem ipsum dolor sit amet consectetur elit. Nam voluptatum
+              beatae recusandae atque voluptatem quasi perferendis eveniet saepe
+              doloribus quae eius veritatis repellat repreh porro accusantium,
+              voluptatibus ex deleniti baka genosida koro mono betuka."
+            </p>
+            <h2><i class="bx bxs-quote-alt-left"></i></h2>
+          </div>
+
+          <!-- --------------------------CARD 3------------------------------- -->
+          <div class="card-testi">
+            <nav>
+              <div class="data">
+                <div class="img-testy">
+                  <img src="images/tesiti-1.jpg" alt="" />
+                </div>
+                <div class="name-testy">
+                  <h5>Syifa S.</h5>
+                  <p>Copy Writing</p>
+                </div>
+              </div>
+              <img src="images/WestRock Logo.png" alt="" width="80px" />
+            </nav>
+            <p class="big">
+              "Lorem ipsum dolor sit amet consectetur elit. Nam voluptatum
+              beatae recusandae atque voluptatem quasi perferendis eveniet saepe
+              doloribus quae eius veritatis repellat repreh porro accusantium,
+              voluptatibus ex deleniti baka genosida koro mono betuka."
+            </p>
+            <h2><i class="bx bxs-quote-alt-left"></i></h2>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="wraper-contact">
+          <div class="first-box">
+            <h1><span>M</span>eiza.<span class="com">com</span></h1>
+            <p>
+              Success is everyone's right, and Meza.com has the ambition to
+              provide access to quality and affordable education to the young
+              generation who are full of ambition
+            </p>
+          </div>
+          <div class="second-box">
+            <div>
+              <h4>Program</h4>
+              <ul>
+                <li>Bootcamp</li>
+                <li>ProClass</li>
+                <li>Video Course</li>
+                <li>Event & Workshop</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Corporate</h4>
+              <ul>
+                <li>Hire Graduates</li>
+                <li>Corporate Training</li>
+              </ul>
+            </div>
+            <div>
+              <h4>About</h4>
+              <ul>
+                <li>About Us</li>
+                <li>Alumni</li>
+                <li>Career</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Help</h4>
+              <ul>
+                <li>FAQ</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+              </ul>
+            </div>
+          </div>
+          <div class="second-box-mobile">
+            <div>
+              <h4 onclick="openDetail('first-desc', this)">Program 
+                <i id="dropdown" class='bx bx-chevron-up'></i>
+              </h4>
+              <ul id="first-desc" class="openTab">
+                <li>Bootcamp</li>
+                <li>ProClass</li>
+                <li>Video Course</li>
+                <li>Event & Workshop</li>
+              </ul>
+            </div>
+            <div>
+              <h4 onclick="openDetail('second-desc', this)">Corporate 
+                <i id="dropdown" class='bx bx-chevron-up'></i>
+              </h4>
+              <ul id="second-desc" class="openTab">
+                <li>Hire Graduates</li>
+                <li>Corporate Training</li>
+              </ul>
+            </div>
+            <div>
+              <h4 onclick="openDetail('third-desc', this)">About 
+                <i id="dropdown" class='bx bx-chevron-up'></i>
+              </h4>
+              <ul id="third-desc" class="openTab">
+                <li>About Us</li>
+                <li>Alumni</li>
+                <li>Career</li>
+              </ul>
+            </div>
+            <div>
+              <h4 onclick="openDetail('fourth-desc', this)">Help 
+                <i id="dropdown" class='bx bx-chevron-up'></i>
+              </h4>
+              <ul id="fourth-desc" class="openTab">
+                <li>FAQ</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+              </ul>
+            </div>
+          </div>
+          <ul class="medsos">
+            <li><i class="bx bxl-linkedin"></i></li>
+            <li><i class="bx bxl-facebook"></i></li>
+            <li><i class="bx bxl-twitter"></i></li>
+            <li><i class="bx bxl-instagram"></i></li>
+          </ul>
+        </div>
+      </section>
+      <footer>
+        <p>© 2020-2023 PT. Meiza. All rights reserved</p>
+        <ul>
+          <li><i class="bx bxl-linkedin"></i></li>
+          <li><i class="bx bxl-facebook"></i></li>
+          <li><i class="bx bxl-twitter"></i></li>
+          <li><i class="bx bxl-instagram"></i></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
